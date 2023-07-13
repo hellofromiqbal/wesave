@@ -31,7 +31,7 @@ const BannerSec = () => {
           <h1
             className='
             font-bold
-            text-3xl md:text-3xl lg:text-4xl
+            text-3xl lg:text-4xl
             my-2
             text-center
             text-white
