@@ -4,15 +4,20 @@ import Button from '../../../components/elements/Button';
 const BannerSec = () => {
   return (
     <section
-      className='bg-blue-100
+      className='
       flex
       flex-col
       pt-10
       pb-14
+      bg-[url("public/images/banner-img.jpg")]
+      bg-cover
+      bg-center
       '
     >
       <div
-        className='px-6 md:px-10'
+        className='
+        px-6 md:px-10
+        '
       >
         <div
           className='
@@ -26,8 +31,10 @@ const BannerSec = () => {
           <h1
             className='
             font-bold
-            md:text-3xl lg:text-4xl
+            text-3xl md:text-3xl lg:text-4xl
             my-2
+            text-center
+            text-white
             '
           >WeCare. WeProtect. WeSafe.</h1>
           <Button
