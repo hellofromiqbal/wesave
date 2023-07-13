@@ -26,8 +26,10 @@ const BannerSec = () => {
           <h1
             className='
             font-bold
-            md:text-3xl lg:text-4xl
+            text-3xl lg:text-4xl
             my-2
+            text-center
+            text-white
             '
           >WeCare. WeProtect. WeSafe.</h1>
           <Button
