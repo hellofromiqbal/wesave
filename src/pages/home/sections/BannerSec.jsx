@@ -4,15 +4,20 @@ import Button from '../../../components/elements/Button';
 const BannerSec = () => {
   return (
     <section
-      className='bg-blue-100
+      className='
       flex
       flex-col
       pt-10
       pb-14
+      bg-[url("public/images/banner-img.jpg")]
+      bg-cover
+      bg-center
       '
     >
       <div
-        className='px-6 md:px-10'
+        className='
+        px-6 md:px-10
+        '
       >
         <div
           className='
