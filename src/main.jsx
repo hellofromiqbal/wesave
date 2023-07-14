@@ -6,19 +6,36 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ErrorPage from './pages/404';
 import Footer from './components/elements/Footer';
 import Header from './components/elements/Header';
+import MainLayout from './components/layouts/MainLayout';
 
 const routes = createBrowserRouter([
   {
     path: "/",
-    element: <Home/>,
-    errorElement: <ErrorPage/>
+    element: <MainLayout/>,
+    errorElement: <ErrorPage/>,
+    children: [
+      {
+        path: "/",
+        element: <Home/>
+      },
+      {
+        path: "/about",
+        element: <div>About</div>
+      },
+      {
+        path: "/services",
+        element: <div>Services</div>,
+      },
+      {
+        path: "/contact",
+        element: <div>Contact</div>
+      },
+    ]
   }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Header/>
     <RouterProvider router={routes}/>
-    <Footer/>
   </React.StrictMode>
 );

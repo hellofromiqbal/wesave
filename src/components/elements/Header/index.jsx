@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaShieldAlt as IconShield } from 'react-icons/fa';
+import Navbar from '../Navbar';
 
 const Header = () => {
   return (
@@ -21,14 +22,7 @@ const Header = () => {
         </div>
         <h1 className='font-bold text-white text-2xl'>WeSafe.</h1>
       </div>
-      <div>
-        <ul className="flex flex-row gap-4 text-white font-semibold">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
+      <Navbar/>
     </header>
   )
 }
