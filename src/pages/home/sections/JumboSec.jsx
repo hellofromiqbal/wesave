@@ -49,13 +49,14 @@ const JumboSec = () => {
             <ButtonGroup>
               <Button
                 bgcolor="bg-blue-700"
-                text="Start Protection"
+                children="Start Protection"
+                bordercolor="border-transparent"
               />
               <Button
                 bgcolor="bg-white"
                 textcolor="text-blue-700"
                 bordercolor="border-blue-700"
-                text="Learn More"
+                children="Learn More"
               />
             </ButtonGroup>
           </div>

@@ -4,26 +4,25 @@ const Button = (props) => {
   const {
     bgcolor = "bg-black",
     textcolor = "text-white",
-    bordercolor = "border-transparent",
-    text,
+    textsize = "text-sm",
+    paddingx = "px-4",
+    paddingy = "py-2",
+    onClick = () => {},
+    bordercolor = "border-blue-700",
+    children,
   } = props;
   return (
     <button
       className={`
-      font-bold
-      text-sm md:text-base lg:text-lg
-      w-max
-      py-2
-      px-4
-      shadow-lg
-      rounded
-      border-2
-      hover:shadow-xl
-      duration-500
-      ${bgcolor} ${textcolor} ${bordercolor}
+        font-semibold
+        sm:text-sm md:text-base lg:text-lg
+        w-max
+        border-2
+        ${bgcolor} ${textcolor} ${textsize} ${paddingx} ${paddingy} ${bordercolor}
       `}
+      onClick={onClick}
     >
-      {text}
+      {children}
     </button>
   )
 };

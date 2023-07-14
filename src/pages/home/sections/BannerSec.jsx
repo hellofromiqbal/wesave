@@ -36,7 +36,8 @@ const BannerSec = () => {
           <Button
             bgcolor="bg-green-700"
             textcolor="text-white"
-            text="Start Protection"
+            bordercolor="border-transparent"
+            children="Start Protection"
           />
         </div>
       </div>
