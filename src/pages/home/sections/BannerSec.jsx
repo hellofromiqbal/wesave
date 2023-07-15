@@ -14,7 +14,7 @@ const BannerSec = () => {
       <div
         className='
         bg-gradient-to-tl from-transparent to-black
-        p-10
+        p-10 md:p-20
         px-6 md:px-10
         w-full
         '
