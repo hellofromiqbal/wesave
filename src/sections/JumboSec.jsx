@@ -1,6 +1,6 @@
 import React from 'react';
-import Button from '../../../components/elements/Button';
-import ButtonGroup from '../../../components/fragments/ButtonGroup';
+import Button from '../components/elements/Button';
+import ButtonGroup from '../components/fragments/ButtonGroup';
 
 import { GoShieldLock as IconShield } from 'react-icons/go';
 import { useNavigate } from 'react-router-dom';

@@ -4,9 +4,8 @@ import './index.css';
 import Home from './pages/home';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ErrorPage from './pages/404';
-import Footer from './components/elements/Footer';
-import Header from './components/elements/Header';
 import MainLayout from './components/layouts/MainLayout';
+import ServicesPage from './pages/services';
 
 const routes = createBrowserRouter([
   {
@@ -24,7 +23,7 @@ const routes = createBrowserRouter([
       },
       {
         path: "/services",
-        element: <div>Services</div>,
+        element: <ServicesPage/>,
       },
       {
         path: "/contact",

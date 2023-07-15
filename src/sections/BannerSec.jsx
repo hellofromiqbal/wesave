@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../../../components/elements/Button';
+import Button from '../components/elements/Button';
 import { useNavigate } from 'react-router-dom';
 
 const BannerSec = () => {

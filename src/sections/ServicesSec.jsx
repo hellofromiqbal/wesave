@@ -1,6 +1,5 @@
 import React from 'react';
 
-import { HiOutlineLink as IconConnect } from 'react-icons/hi';
 import {
   BsShield as IconShield,
   BsKey as IconKey,
@@ -9,10 +8,10 @@ import {
 } from 'react-icons/bs';
 import { BiCctv as IconCCTV } from 'react-icons/bi';
 import { SlLock as IconLock } from 'react-icons/sl';
-import Card from '../../../components/elements/Card';
-import CardGroup from '../../../components/fragments/CardGroup';
+import Card from '../components/elements/Card';
+import CardGroup from '../components/fragments/CardGroup';
 
-const ServiceSpec = () => {
+const ServicesSec = () => {
   const services = [
     {
       id: 1,
@@ -113,4 +112,4 @@ const ServiceSpec = () => {
   )
 };
 
-export default ServiceSpec;
+export default ServicesSec;

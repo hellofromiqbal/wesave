@@ -3,8 +3,8 @@ import React from 'react';
 import { HiOutlineLink as IconConnect } from 'react-icons/hi';
 import { GoDiscussionClosed as IconDiscuss } from 'react-icons/go';
 import { BsEmojiSmile as IconRelax } from 'react-icons/bs';
-import Card from '../../../components/elements/Card';
-import CardGroup from '../../../components/fragments/CardGroup';
+import Card from '../components/elements/Card';
+import CardGroup from '../components/fragments/CardGroup';
 
 const StepSec = () => {
   const steps = [
