@@ -1,7 +1,14 @@
 import React from 'react';
 import Button from '../../../components/elements/Button';
+import { useNavigate } from 'react-router-dom';
 
 const BannerSec = () => {
+  const navigate = useNavigate();
+
+  const onClick = (link) => {
+    navigate(link);
+  };
+
   return (
     <section
       className='
@@ -42,6 +49,7 @@ const BannerSec = () => {
             textcolor="text-white"
             bordercolor="border-transparent"
             children="Start Protection"
+            onClick={() => onClick("/contact")}
           />
         </div>
       </div>

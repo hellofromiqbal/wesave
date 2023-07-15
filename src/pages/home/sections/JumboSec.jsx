@@ -3,8 +3,15 @@ import Button from '../../../components/elements/Button';
 import ButtonGroup from '../../../components/fragments/ButtonGroup';
 
 import { GoShieldLock as IconShield } from 'react-icons/go';
+import { useNavigate } from 'react-router-dom';
 
 const JumboSec = () => {
+  const navigate = useNavigate();
+
+  const onClick = (link) => {
+    navigate(link);
+  };
+
   return (
     <section
       id='home'
@@ -57,12 +64,14 @@ const JumboSec = () => {
                 bgcolor="bg-blue-700"
                 children="Start Protection"
                 bordercolor="border-transparent"
+                onClick={() => onClick("/contact")}
               />
               <Button
                 bgcolor="bg-white"
                 textcolor="text-blue-700"
                 bordercolor="border-transparent"
                 children="Learn More"
+                onClick={() => onClick("/about")}
               />
             </ButtonGroup>
           </div>
