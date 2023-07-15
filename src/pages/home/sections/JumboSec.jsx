@@ -10,7 +10,7 @@ const JumboSec = () => {
       id='home'
       className='
       bg-[url("/public/images/jumbo.webp")]
-      md:bg-cover
+      bg-cover
       bg-center
       '
     >
@@ -22,6 +22,7 @@ const JumboSec = () => {
         pt-0 md:pt-20 lg:pt-0
         pb-0 md:pb-10 lg:pb-0
         px-6 md:px-10
+        bg-gradient-to-tl from-transparent to-black
         '
       >
         <div

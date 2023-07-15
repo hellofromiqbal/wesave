@@ -25,8 +25,6 @@ const Footer = () => {
           flex
           flex-col
           gap-4
-          text-center md:text-start
-          items-center md:items-start
           '
         >
           <h4
@@ -67,12 +65,11 @@ const Footer = () => {
           flex
           flex-col
           gap-4
-          text-center md:text-start
           '
         >
           <h4 className='font-bold md:text-base lg:text-xl'>Company</h4>
           <ul className='flex flex-col gap-2 text-sm lg:text-base'>
-            <li><a href="#">Bandung</a></li>
+            <li><a href="#">Indonesia</a></li>
             <li><a href="#">Careers</a></li>
             <li><a href="#">Mobile</a></li>
             <li><a href="#">Blog</a></li>
@@ -84,14 +81,12 @@ const Footer = () => {
           flex
           flex-col
           gap-4
-          text-center md:text-start
           '
         >
           <h4 className='font-bold md:text-base lg:text-xl'>Working Hours</h4>
           <ul className='flex flex-col gap-2 text-sm lg:text-base'>
-            <li>Mon - Fri: 9:00AM - 05:00PM</li>
-            <li>Sat: 9:00AM - 03:00PM</li>
-            <li>Sun: Closed</li>
+            <li>Technical Support : 24/7</li>
+            <li>Non-Technical Support : 9 - 5 on weekdays</li>
           </ul>
         </div>
         <div
@@ -99,7 +94,6 @@ const Footer = () => {
           flex
           flex-col
           gap-4
-          text-center md:text-start
           '
         >
           <h4 className='font-bold md:text-base lg:text-xl'>Subscription</h4>

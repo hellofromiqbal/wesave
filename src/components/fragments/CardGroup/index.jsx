@@ -7,7 +7,7 @@ const CardGroup = (props) => {
       className='
       grid
       md:grid-cols-2 lg:grid-cols-3
-      gap-4
+      gap-6
       py-8 md:py-10
       '
     >

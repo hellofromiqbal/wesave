@@ -6,15 +6,17 @@ const BannerSec = () => {
     <section
       className='
       flex
-      flex-col
-      pt-10
-      pb-14
-      bg-gradient-to-tl from-blue-100 to-blue-900 via-blue-700
+      bg-[url("/public/images/banner.webp")]
+      bg-cover
+      bg-center
       '
     >
       <div
         className='
+        bg-gradient-to-tl from-transparent to-black
+        p-10
         px-6 md:px-10
+        w-full
         '
       >
         <div
@@ -36,8 +38,8 @@ const BannerSec = () => {
             '
           >WeCare. WeProtect. WeSafe.</h1>
           <Button
-            bgcolor="bg-white"
-            textcolor="text-blue-700"
+            bgcolor="bg-blue-700"
+            textcolor="text-white"
             bordercolor="border-transparent"
             children="Start Protection"
           />
