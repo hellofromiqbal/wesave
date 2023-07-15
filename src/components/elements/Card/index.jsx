@@ -9,7 +9,7 @@ const Card = (props) => {
     icon,
     title,
     desc,
-    readMore = false
+    link
   } = props;
 
   return (
@@ -56,8 +56,8 @@ const Card = (props) => {
           {desc}
         </small>
       </div>
-      {readMore &&
-        <Link to={"/a"} className='text-blue-700'>Read More</Link>
+      {link &&
+        <Link to={link} className='text-blue-700'>Read More</Link>
       }
     </div>
   )
