@@ -9,10 +9,9 @@ const JumboSec = () => {
     <section
       id='home'
       className='
-      bg-[url("images/jumbo1.jpg")]
-      bg-cover
+      bg-[url("images/jumbo2.jpg")] md:bg-[url("images/jumbo1.jpg")]
+      md:bg-cover
       bg-center
-      backdrop-blur-xl
       '
     >
       <div
@@ -40,17 +39,17 @@ const JumboSec = () => {
             '
           >
             <h2
-              className='font-bold text-sm md:text-base lg:text-xl'
+              className='font-bold text-sm md:text-base lg:text-xl text-white md:text-black'
             >Protect your assets now</h2>
             <h1
-              className='font-bold text-3xl md:text-4xl lg:text-5xl'
+              className='font-bold text-3xl md:text-4xl lg:text-5xl text-white md:text-black'
             >
               Feel
-              <span className='text-blue-700'> safe </span>
+              <span className='bg-white md:bg-none text-black md:text-blue-700'> safe </span>
               with our security service
             </h1>
             <p
-              className='text-black text-opacity-50 my-4 text-sm md:text-base'
+              className='text-white md:text-black text-opacity-80 my-4 text-sm md:text-base'
             >Secure your valuable assets with high-level & systematic protection, fast-response 24/7 assistance and much more.</p>
             <ButtonGroup>
               <Button
@@ -61,7 +60,7 @@ const JumboSec = () => {
               <Button
                 bgcolor="bg-white"
                 textcolor="text-blue-700"
-                bordercolor="border-blue-700"
+                bordercolor="border-transparent"
                 children="Learn More"
               />
             </ButtonGroup>
@@ -87,7 +86,7 @@ const JumboSec = () => {
           >
             <div
               className='
-              text-blue-700
+              text-white md:text-blue-700
               text-6xl md:text-7xl lg:text-9xl
               drop-shadow-xl
               '
@@ -98,7 +97,7 @@ const JumboSec = () => {
               className='
               font-bold
               text-5xl md:text-6xl lg:text-8xl
-              text-blue-700
+              text-white md:text-blue-700
               shadow-red-800
               drop-shadow-xl
               '

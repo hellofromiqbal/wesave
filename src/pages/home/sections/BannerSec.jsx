@@ -4,11 +4,12 @@ import Button from '../../../components/elements/Button';
 const BannerSec = () => {
   return (
     <section
-      className='bg-blue-100
+      className='
       flex
       flex-col
       pt-10
       pb-14
+      bg-gradient-to-tl from-blue-100 to-blue-700 via-blue-700
       '
     >
       <div
@@ -31,11 +32,12 @@ const BannerSec = () => {
             text-3xl lg:text-4xl
             my-2
             text-center
+            text-white
             '
           >WeCare. WeProtect. WeSafe.</h1>
           <Button
-            bgcolor="bg-green-700"
-            textcolor="text-white"
+            bgcolor="bg-white"
+            textcolor="text-black"
             bordercolor="border-transparent"
             children="Start Protection"
           />
