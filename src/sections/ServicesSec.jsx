@@ -11,7 +11,8 @@ import { SlLock as IconLock } from 'react-icons/sl';
 import Card from '../components/elements/Card';
 import CardGroup from '../components/fragments/CardGroup';
 
-const ServicesSec = () => {
+const ServicesSec = (props) => {
+  const { sectionbgcolor = "bg-white", cardcolor="bg-white" } = props;
   const services = [
     {
       id: 1,
@@ -59,11 +60,12 @@ const ServicesSec = () => {
   return (
     <section
       id='services'
-      className='
+      className={`
       flex
       flex-col
       pt-6
-      '
+      ${sectionbgcolor}
+      `}
     >
       <div
         className='
@@ -97,9 +99,7 @@ const ServicesSec = () => {
           {services.map((service) => (
             <Card
               key={service.id}
-              bgcolor="bg-blue-100"
-              iconcolor="blue"
-              iconbordercolor="blue"
+              bgcolor={cardcolor}
               icon={service.icon}
               title={service.title}
               desc={service.desc}

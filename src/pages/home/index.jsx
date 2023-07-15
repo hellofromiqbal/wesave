@@ -9,7 +9,7 @@ const HomePage = () => {
     <main>
       <JumboSec/>
       <StepSec/>
-      <ServicesSec/>
+      <ServicesSec cardcolor="bg-blue-100"/>
       <BannerSec/>
     </main>
   )
