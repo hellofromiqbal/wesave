@@ -8,6 +8,12 @@ const JumboSec = () => {
   return (
     <section
       id='home'
+      className='
+      bg-[url("images/jumbo1.jpg")]
+      bg-cover
+      bg-center
+      backdrop-blur-xl
+      '
     >
       <div
         className='
