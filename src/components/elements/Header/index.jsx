@@ -55,7 +55,7 @@ const Header = () => {
       {navIconClicked &&
         <div
           className='bg-white
-          fixed left-0 right-0 mt-14
+          fixed left-0 right-0
           z-10
           '
         >
