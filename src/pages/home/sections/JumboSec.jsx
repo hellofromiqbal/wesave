@@ -2,14 +2,14 @@ import React from 'react';
 import Button from '../../../components/elements/Button';
 import ButtonGroup from '../../../components/fragments/ButtonGroup';
 
-import { FaShieldAlt as IconShield } from 'react-icons/fa';
+import { GoShieldLock as IconShield } from 'react-icons/go';
 
 const JumboSec = () => {
   return (
     <section
       id='home'
       className='
-      bg-[url("/public/images/jumbo2.webp")] md:bg-[url("/public/images/jumbo1.webp")]
+      bg-[url("/public/images/jumbo5.webp")] md:bg-[url("/public/images/jumbo5.webp")]
       md:bg-cover
       bg-center
       '
@@ -39,17 +39,17 @@ const JumboSec = () => {
             '
           >
             <h2
-              className='font-bold text-sm md:text-base lg:text-xl text-white md:text-black'
+              className='font-bold text-sm md:text-base lg:text-xl text-white'
             >Protect your assets now</h2>
             <h1
-              className='font-bold text-3xl md:text-4xl lg:text-5xl text-white md:text-black'
+              className='font-bold text-3xl md:text-4xl lg:text-5xl text-white'
             >
               Feel
-              <span className='text-white md:text-blue-700'> safe </span>
+              <span className='text-white'> safe </span>
               with our security service
             </h1>
             <p
-              className='text-white md:text-black text-opacity-80 my-4 text-sm md:text-base'
+              className='text-white text-opacity-80 my-4 text-sm md:text-base'
             >Secure your valuable assets with high-level & systematic protection, fast-response 24/7 assistance and much more.</p>
             <ButtonGroup>
               <Button
@@ -86,7 +86,7 @@ const JumboSec = () => {
           >
             <div
               className='
-              text-blue-700
+              text-white
               text-6xl md:text-7xl lg:text-9xl
               drop-shadow-xl
               '
@@ -97,8 +97,8 @@ const JumboSec = () => {
               className='
               font-bold
               text-5xl md:text-6xl lg:text-8xl
-              text-blue-700
-              shadow-red-800
+              text-white
+              shadow-white
               drop-shadow-xl
               '
             >WeSafe.</h1>

@@ -9,7 +9,7 @@ const BannerSec = () => {
       flex-col
       pt-10
       pb-14
-      bg-gradient-to-tl from-blue-100 to-blue-700 via-blue-700
+      bg-gradient-to-tl from-blue-100 to-blue-900 via-blue-700
       '
     >
       <div
@@ -37,7 +37,7 @@ const BannerSec = () => {
           >WeCare. WeProtect. WeSafe.</h1>
           <Button
             bgcolor="bg-white"
-            textcolor="text-black"
+            textcolor="text-blue-700"
             bordercolor="border-transparent"
             children="Start Protection"
           />

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../Navbar';
 
-import { FaShieldAlt as IconShield } from 'react-icons/fa';
+import { GoShieldLock as IconShield } from 'react-icons/go';
 import {
   AiOutlineMenu as IconMenu,
   AiOutlineClose as IconClose
@@ -29,7 +29,7 @@ const Header = () => {
         z-10
         '
       >
-        <div className='flex flex-row items-center gap-2'>
+        <div className='flex flex-row items-center gap-1'>
           <div className='text-3xl text-white drop-shadow-xl'>
             <IconShield/>
           </div>
