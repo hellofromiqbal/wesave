@@ -18,6 +18,7 @@ const Button = (props) => {
         sm:text-sm md:text-base lg:text-lg
         w-max
         border-2
+        ${bgcolor !== "bg-white" && `hover:bg-blue-500 transition-all`}
         ${bgcolor} ${textcolor} ${textsize} ${paddingx} ${paddingy} ${bordercolor}
       `}
       onClick={onClick}
