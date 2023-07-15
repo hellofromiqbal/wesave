@@ -4,7 +4,7 @@ import BannerSec from '../../sections/BannerSec';
 
 const ServicesPage = () => {
   return (
-    <main className='mt-14'>
+    <main>
       <ServiceSec sectionbgcolor="bg-blue-100"/>
       <BannerSec/>
     </main>
