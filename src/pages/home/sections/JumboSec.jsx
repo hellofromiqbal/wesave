@@ -45,7 +45,7 @@ const JumboSec = () => {
               className='font-bold text-3xl md:text-4xl lg:text-5xl text-white md:text-black'
             >
               Feel
-              <span className='bg-white md:bg-none text-black md:text-blue-700'> safe </span>
+              <span className='text-white md:text-blue-700'> safe </span>
               with our security service
             </h1>
             <p
@@ -86,7 +86,7 @@ const JumboSec = () => {
           >
             <div
               className='
-              text-white md:text-blue-700
+              text-blue-700
               text-6xl md:text-7xl lg:text-9xl
               drop-shadow-xl
               '
@@ -97,7 +97,7 @@ const JumboSec = () => {
               className='
               font-bold
               text-5xl md:text-6xl lg:text-8xl
-              text-white md:text-blue-700
+              text-blue-700
               shadow-red-800
               drop-shadow-xl
               '
