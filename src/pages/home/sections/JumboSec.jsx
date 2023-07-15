@@ -9,7 +9,7 @@ const JumboSec = () => {
     <section
       id='home'
       className='
-      bg-[url("/public/images/jumbo5.webp")] md:bg-[url("/public/images/jumbo5.webp")]
+      bg-[url("/public/images/jumbo.webp")]
       md:bg-cover
       bg-center
       '
