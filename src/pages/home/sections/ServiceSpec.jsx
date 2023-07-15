@@ -98,6 +98,7 @@ const ServiceSpec = () => {
               icon={service.icon}
               title={service.title}
               desc={service.desc}
+              readMore={true}
             />
           ))}
         </CardGroup>

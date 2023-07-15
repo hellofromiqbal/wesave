@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Card = (props) => {
   const {
@@ -7,8 +8,10 @@ const Card = (props) => {
     iconbordercolor = "blue",
     icon,
     title,
-    desc
+    desc,
+    readMore = false
   } = props;
+
   return (
     <div
       className={`
@@ -53,6 +56,9 @@ const Card = (props) => {
           {desc}
         </small>
       </div>
+      {readMore &&
+        <Link to={"/a"} className='text-blue-700'>Read More</Link>
+      }
     </div>
   )
 };
