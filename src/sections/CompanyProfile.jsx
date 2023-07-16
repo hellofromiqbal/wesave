@@ -41,9 +41,9 @@ const CompanyProfile = () => {
             '
           >
             <h1 className='font-bold text-2xl md:text-3xl lg:text-4xl'>Let <span className='text-blue-700'>WeSave</span> Security take care of your assets</h1>
-            <p>WeSave security aims to provide the highest quality security consulting in the world to provide peace of mind.</p>
-            <p>From our custom tooling to our impeccable reliability, we strive for perfection so clients never have to wait for a report or wonder if their assets are adequately tested.</p>
-            <p>WeSave security aims to provide the highest quality security consulting in the world to provide peace of mind.</p>
+            <p className='text-sm md:text-base'>WeSave security aims to provide the highest quality security consulting in the world to provide peace of mind.</p>
+            <p className='text-sm md:text-base'>From our custom tooling to our impeccable reliability, we strive for perfection so clients never have to wait for a report or wonder if their assets are adequately tested.</p>
+            <p className='text-sm md:text-base'>WeSave security aims to provide the highest quality security consulting in the world to provide peace of mind.</p>
           </div>
           <div>
 
