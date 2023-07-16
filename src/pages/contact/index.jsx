@@ -2,9 +2,9 @@ import React from 'react';
 import ContactForm from '../../components/fragments/ContactForm';
 
 const ContactPage = (props) => {
-  const { margintop } = props;
+  const { paddingtop } = props;
   return (
-    <main className={`${margintop}`}>
+    <main className={`${paddingtop}`}>
       <ContactForm/>
     </main>
   )

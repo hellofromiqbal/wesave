@@ -3,10 +3,10 @@ import CompanyProfile from '../../sections/CompanyProfile';
 import StepSec from '../../sections/StepSec';
 
 const AboutPage = (props) => {
-  const { margintop } = props;
+  const { paddingtop = "mt-0" } = props;
 
   return (
-    <main className={`${margintop}`}>
+    <main className={`${paddingtop}`}>
       <CompanyProfile/>
       <StepSec cardcolor="bg-blue-100"/>
     </main>

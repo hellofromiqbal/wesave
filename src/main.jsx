@@ -21,15 +21,15 @@ const routes = createBrowserRouter([
       },
       {
         path: "/about",
-        element: <AboutPage margintop="mt-14"/>
+        element: <AboutPage paddingtop="pt-14"/>
       },
       {
         path: "/services",
-        element: <ServicesPage margintop="mt-14"/>,
+        element: <ServicesPage paddingtop="pt-14"/>,
       },
       {
         path: "/contact",
-        element: <ContactPage margintop="mt-14"/>
+        element: <ContactPage paddingtop="pt-14"/>
       },
     ]
   }
