@@ -27,7 +27,7 @@ const Header = () => {
         px-6 md:px-10
         py-4
         z-10
-        shadow-xl
+        shadow-sm
         '
       >
         <div className='flex flex-row items-center gap-1'>
@@ -58,7 +58,8 @@ const Header = () => {
           className='bg-white
           fixed left-0 right-0
           mt-14
-          z-9
+          z-10
+          shadow-sm
           '
         >
           <Navbar onClick={onClick}/>
