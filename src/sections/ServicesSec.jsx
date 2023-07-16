@@ -39,7 +39,7 @@ const ServicesSec = (props) => {
       id: 4,
       icon: <IconCloud/>,
       title: "Cloud Security Review",
-      desc: "Safeguard your sensitive data from threats within. We provide comprehensive solutions to strengthen your internal defenses.",
+      desc: "Optimize your cloud infrastructure's security with our comprehensive evaluations and strategic recommendations.",
       link: "/services/cloud-security-review"
     },
     {
