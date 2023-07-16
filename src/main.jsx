@@ -7,6 +7,7 @@ import ErrorPage from './pages/404';
 import MainLayout from './components/layouts/MainLayout';
 import ServicesPage from './pages/services';
 import AboutPage from './pages/about';
+import ContactPage from './pages/contact';
 
 const routes = createBrowserRouter([
   {
@@ -28,7 +29,7 @@ const routes = createBrowserRouter([
       },
       {
         path: "/contact",
-        element: <div>Contact</div>
+        element: <ContactPage margintop="mt-14"/>
       },
     ]
   }
