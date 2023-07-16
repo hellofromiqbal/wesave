@@ -30,7 +30,7 @@ const CompanyProfile = () => {
             basis-1/2
             '
           >
-            <img src="./public/images/about.webp" alt="company" />
+            <img src="/public/images/about.webp" alt="company" />
           </div>
           <div
             className='
