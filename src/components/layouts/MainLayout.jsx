@@ -3,8 +3,7 @@ import Header from '../elements/Header';
 import Footer from '../elements/Footer';
 import { Outlet } from 'react-router-dom';
 import BannerSec from '../../sections/BannerSec';
-import ScrollToTop from '../../utility/ScrollToTop';
-import useScrollToTop from '../../utility/useScrollToTop';
+import useScrollToTop from '../../customHooks/useScrollToTop';
 
 const MainLayout = () => {
   useScrollToTop();
