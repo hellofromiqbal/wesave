@@ -9,6 +9,7 @@ const CompanyProfile = () => {
       flex
       flex-col
       pt-6
+      pb-6
       bg-blue-100
       '
     >
@@ -19,7 +20,9 @@ const CompanyProfile = () => {
           className='
           flex
           flex-col md:flex-row
-          gap-4
+          gap-6
+          lg:w-4/6
+          m-auto
           '
         >
           <div
@@ -27,7 +30,7 @@ const CompanyProfile = () => {
             basis-1/2
             '
           >
-            <img src="./public/images/about3.jpg" alt="company" />
+            <img src="./public/images/about.webp" alt="company" />
           </div>
           <div
             className='
