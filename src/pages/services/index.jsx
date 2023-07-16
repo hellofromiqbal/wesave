@@ -7,7 +7,6 @@ const ServicesPage = (props) => {
   return (
     <main className={`${margintop}`}>
       <ServiceSec sectionbgcolor="bg-blue-100"/>
-      <BannerSec/>
     </main>
   )
 }

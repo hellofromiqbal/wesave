@@ -6,7 +6,8 @@ import { BsEmojiSmile as IconRelax } from 'react-icons/bs';
 import Card from '../components/elements/Card';
 import CardGroup from '../components/fragments/CardGroup';
 
-const StepSec = () => {
+const StepSec = (props) => {
+  const { sectionbgcolor = "bg-white", cardcolor="bg-white" } = props;
   const steps = [
     {
       id: 1,
@@ -30,12 +31,13 @@ const StepSec = () => {
   return (
     <section
       id='steps'
-      className='
+      className={`
       flex
       flex-col
       pt-6
       bg-blue-100
-      '
+      ${sectionbgcolor}
+      `}
     >
       <div
         className='px-6 md:px-10'
@@ -67,7 +69,7 @@ const StepSec = () => {
           {steps.map((step) => (
             <Card
               key={step.id}
-              bgcolor="bg-white"
+              bgcolor={cardcolor}
               iconcolor="blue"
               iconbordercolor="blue"
               icon={step.icon}
