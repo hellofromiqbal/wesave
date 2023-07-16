@@ -8,7 +8,7 @@ const HomePage = () => {
   return (
     <main>
       <JumboSec/>
-      <StepSec/>
+      <StepSec sectionbgcolor="bg-blue-100"/>
       <ServicesSec cardcolor="bg-blue-100"/>
     </main>
   )
