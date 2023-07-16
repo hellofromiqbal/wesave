@@ -48,7 +48,7 @@ const ContactForm = (props) => {
               Need additional information?
             </h2>
             <p className='text-sm md:text-base'>
-            A multifaceted professional skilled in multiple fields of research, development as well as a learning specialist. Over 15 years of experience.
+            We're ready to provide assistance and support in the best way possible. Feel free to reach out our team by filling out the convenient form on this page. Look forward to connecting with you so don't hesitate to get in touch with us today!
             </p>
             <div
               className='
