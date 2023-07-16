@@ -1,5 +1,4 @@
-import React from 'react'
-import StepSec from './StepSec';
+import React from 'react';
 
 const CompanyProfile = () => {
   return (
@@ -30,7 +29,7 @@ const CompanyProfile = () => {
             basis-1/2
             '
           >
-            <img src="/public/images/about.webp" alt="company" />
+            <img src="public/images/about.webp" alt="company"/>
           </div>
           <div
             className='
