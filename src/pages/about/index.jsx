@@ -1,8 +1,12 @@
 import React from 'react';
 
-const AboutPage = () => {
+const AboutPage = (props) => {
+  const { margintop } = props;
+
   return (
-    <div>This is About Page</div>
+    <main className={`${margintop}`}>
+      <div>This is About Page</div>
+    </main>
   )
 };
 

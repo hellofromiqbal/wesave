@@ -20,11 +20,11 @@ const routes = createBrowserRouter([
       },
       {
         path: "/about",
-        element: <AboutPage/>
+        element: <AboutPage margintop="mt-14"/>
       },
       {
         path: "/services",
-        element: <ServicesPage/>,
+        element: <ServicesPage margintop="mt-14"/>,
       },
       {
         path: "/contact",
