@@ -8,13 +8,7 @@ const Input = (props) => {
       name={inputId}
       id={inputName}
       placeholder={inputPlaceholder}
-      className='border-transparent bg-gray-100
-      text-sm md:text-base
-      border-2
-      rounded
-      px-2
-      py-1
-      '
+      className='border-transparent bg-gray-100 text-sm md:text-base border-2 rounded px-2 py-1'
       autoComplete="off"
     />
   )

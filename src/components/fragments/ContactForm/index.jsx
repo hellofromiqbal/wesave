@@ -8,12 +8,7 @@ const ContactForm = () => {
   return (
     <form
       action=""
-      className='w-full
-      flex
-      flex-col
-      gap-4
-      '
-    >
+      className='w-full flex flex-col gap-4'>
       <FormInput
         labelName="Name"
         labelFor="name"

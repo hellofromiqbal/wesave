@@ -6,15 +6,7 @@ const TextArea = (props) => {
     <textarea
       name={textAreaName}
       id={textAreaId}
-      className='border-transparent bg-gray-100
-      text-sm md:text-base
-      border-2
-      rounded
-      px-2
-      py-1
-      resize-none
-      h-40
-      '
+      className='border-transparent bg-gray-100 text-sm md:text-base border-2 rounded px-2 py-1 resize-none h-40'
       placeholder={textAreaPlaceholder}
     />
   )

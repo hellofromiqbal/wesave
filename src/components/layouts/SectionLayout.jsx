@@ -12,20 +12,9 @@ const SectionLayout = (props) => {
   return (
     <section
       id={sectionid}
-      className={`
-        flex
-        flex-col
-        ${bgcolor}
-        ${padding}
-        ${bgimg ? `${bgimg} bg-cover bg-center` : ``}
-      `}
-    >
+      className={`flex flex-col ${bgcolor} ${padding} ${bgimg ? `${bgimg} bg-cover bg-center` : ``}`}>
       <div
-        className={`
-        px-6 md:px-10
-        ${bgimg ? `w-full bg-gradient-to-tl from-transparent to-black p-10 md:p-20` : ``}
-        `}
-      >
+        className={`px-6 md:px-10 ${bgimg ? `w-full bg-gradient-to-tl from-transparent to-black p-10 md:p-20` : ``}`}>
         {children}
       </div>
     </section>

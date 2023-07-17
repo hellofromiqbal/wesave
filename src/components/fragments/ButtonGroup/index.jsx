@@ -4,12 +4,7 @@ const ButtonGroup = (props) => {
   const { children } = props;
   return (
     <div
-      className='
-      flex
-      flex-row
-      gap-4
-      '
-    >
+      className='flex flex-row gap-4'>
       {children}
     </div>
   )

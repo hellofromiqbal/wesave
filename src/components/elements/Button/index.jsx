@@ -13,14 +13,7 @@ const Button = (props) => {
   } = props;
   return (
     <button
-      className={`
-        font-semibold
-        sm:text-sm md:text-base lg:text-lg
-        w-max
-        border-2
-        ${bgcolor !== "bg-white" && `hover:bg-blue-500 transition-all`}
-        ${bgcolor} ${textcolor} ${textsize} ${paddingx} ${paddingy} ${bordercolor}
-      `}
+      className={`first-letter:font-semibold first-letter:sm:text-sm md:text-base lg:text-lg first-letter:w-max first-letter:border-2 first-letter:${bgcolor !== "bg-white" && `hover:bg-blue-500 transition-all`} first-letter:${bgcolor} ${textcolor} ${textsize} ${paddingx} ${paddingy} ${bordercolor}`}
       onClick={onClick}
     >
       {children}
