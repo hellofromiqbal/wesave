@@ -5,12 +5,12 @@ import CardGroup from '../components/fragments/CardGroup';
 import Card from '../components/elements/Card';
 
 import {
-  BsShield as IconShield,
   BsKey as IconKey,
   BsCloud as IconCloud,
   BsGlobe2 as IconGlobe,
 } from 'react-icons/bs';
 import { BiCctv as IconCCTV } from 'react-icons/bi';
+import { GoShieldLock as IconShield } from 'react-icons/go';
 import { SlLock as IconLock } from 'react-icons/sl';
 
 
