@@ -59,7 +59,7 @@ const ServicesSec = (props) => {
     },
   ];
   return (
-    <SectionLayout sectionid="services" padding="pt-6">
+    <SectionLayout sectionid="services" bgcolor={sectionbgcolor} padding="pt-6">
       <div
         className='
         w-full md:w-1/2
