@@ -30,7 +30,7 @@ const StepSec = (props) => {
     },
   ];
   return (
-    <SectionLayout sectionid="steps" bgcolor="bg-blue-100" padding="pt-6">
+    <SectionLayout sectionid="steps" bgcolor={sectionbgcolor} padding="pt-6">
       <div
         className='
         w-full md:w-1/2
