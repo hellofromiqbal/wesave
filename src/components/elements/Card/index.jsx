@@ -22,12 +22,12 @@ const Card = (props) => {
         <h3 className='font-bold text-lg md:text-base lg:text-xl mt-2'>
           {title}
         </h3>
-        <small className='text-black text-xs lg:text-base text-opacity-80 '>
+        <small className='text-black text-xs lg:text-base text-opacity-80'>
           {desc}
         </small>
       </div>
       {link &&
-        <Link to={link} className='text-blue-700'>Read More</Link>
+        <Link to={link} className='text-xs lg:text-base text-blue-700'>Read More</Link>
       }
     </div>
   )
