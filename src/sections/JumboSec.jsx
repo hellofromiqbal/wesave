@@ -14,7 +14,10 @@ const JumboSec = () => {
   };
 
   return (
-    <section id='home' className='bg-[url("/public/images/jumbo.webp")] bg-cover bg-center'>
+    <section
+      id='home'
+      className='bg-[url("/public/images/jumbo.webp")] bg-cover bg-center'
+    >
       <div className='h-screen md:h-max lg:h-screen flex flex-col-reverse md:flex-row pt-0 md:pt-20 lg:pt-0 pb-0 md:pb-10 lg:pb-0 px-6 md:px-10 bg-gradient-to-tl from-transparent to-black'>
         <div className='basis-1/2 md:basis-1/2 lg:basis-1/3 flex items-center'>
           <div className='flex flex-col gap-0 md:gap-4'>

@@ -63,7 +63,10 @@ const ServicesSec = (props) => {
   ];
 
   return (
-    <SectionLayout sectionid="services" bgcolor={sectionbgcolor} padding="pt-6">
+    <SectionLayout
+      sectionid="services"
+      bgcolor={sectionbgcolor} padding="pt-6"
+    >
       <div className='w-full md:w-1/2 mx-auto text-center'>
         <h3 className='font-semibold text-sm md:text-base lg:text-xl'>Protection models</h3>
         <h2 className='font-bold text-2xl md:text-3xl lg:text-4xl my-2'>

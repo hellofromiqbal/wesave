@@ -6,7 +6,10 @@ const ProfileSec = (props) => {
   const { sectionbgcolor = "bg-white" } = props;
   
   return (
-    <SectionLayout sectionid="about" bgcolor={sectionbgcolor} padding="py-6">
+    <SectionLayout
+      sectionid="about"
+      bgcolor={sectionbgcolor} padding="py-6"
+    >
       <div className='flex flex-col md:flex-row gap-6 lg:w-4/6 m-auto'>
         <div className='basis-1/2'>
           <img src="/images/about.webp" alt="company"/>

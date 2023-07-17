@@ -14,8 +14,7 @@ const FormInput = (props) => {
   } = props;
   
   return (
-    <div
-      className='flex flex-col'>
+    <div className='flex flex-col'>
       <Label
         labelFor={labelFor}
         labelName={labelName}
