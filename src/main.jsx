@@ -10,6 +10,7 @@ import ContactPage from './pages/contact';
 
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import ServiceFieldPage from './pages/services/serviceFieldPage';
 
 const routes = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const routes = createBrowserRouter([
       {
         path: "/services",
         element: <ServicesPage paddingtop="pt-14"/>,
+      },
+      {
+        path: "/services/:serviceField",
+        element: <ServiceFieldPage/>,
       },
       {
         path: "/contact",
