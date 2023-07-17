@@ -8,8 +8,8 @@ const HomePage = () => {
   return (
     <main>
       <JumboSec/>
-      <StepSec sectionbgcolor="bg-blue-100"/>
-      <ServicesSec cardcolor="bg-blue-100"/>
+      <StepSec cardcolor="bg-blue-100"/>
+      <ServicesSec sectionbgcolor="bg-blue-100"/>
     </main>
   )
 }

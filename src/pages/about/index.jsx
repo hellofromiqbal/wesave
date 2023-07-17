@@ -1,5 +1,5 @@
 import React from 'react';
-import CompanyProfile from '../../sections/CompanyProfile';
+import ProfileSec from '../../sections/ProfileSec';
 import StepSec from '../../sections/StepSec';
 
 const AboutPage = (props) => {
@@ -7,8 +7,8 @@ const AboutPage = (props) => {
 
   return (
     <main className={`${paddingtop}`}>
-      <CompanyProfile/>
-      <StepSec cardcolor="bg-blue-100"/>
+      <ProfileSec/>
+      <StepSec sectionbgcolor="bg-blue-100"/>
     </main>
   )
 };

@@ -6,7 +6,7 @@ const ServicesPage = (props) => {
   const { paddingtop } = props;
   return (
     <main className={`${paddingtop}`}>
-      <ServiceSec sectionbgcolor="bg-blue-100"/>
+      <ServiceSec cardcolor="bg-blue-100"/>
     </main>
   )
 }

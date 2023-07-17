@@ -1,9 +1,10 @@
 import React from 'react';
 import SectionLayout from '../components/layouts/SectionLayout';
 
-const CompanyProfile = () => {
+const ProfileSec = (props) => {
+  const { sectionbgcolor = "bg-white" } = props;
   return (
-    <SectionLayout sectionid="about" bgcolor="bg-blue-100" padding="py-6">
+    <SectionLayout sectionid="about" bgcolor={sectionbgcolor} padding="py-6">
       <div
         className='
         flex
@@ -62,4 +63,4 @@ const CompanyProfile = () => {
   )
 };
 
-export default CompanyProfile;
+export default ProfileSec;
