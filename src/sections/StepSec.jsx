@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { HiOutlineLink as IconConnect } from 'react-icons/hi';
 import { GoDiscussionClosed as IconDiscuss } from 'react-icons/go';
 import { BsEmojiSmile as IconRelax } from 'react-icons/bs';
@@ -52,6 +51,6 @@ const StepSec = (props) => {
       </CardGroup>
     </SectionLayout>
   )
-}
+};
 
 export default StepSec;

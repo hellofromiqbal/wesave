@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const TextArea = (props) => {
   const { textAreaName, textAreaId, textAreaPlaceholder } = props;
@@ -10,6 +10,6 @@ const TextArea = (props) => {
       placeholder={textAreaPlaceholder}
     />
   )
-}
+};
 
 export default TextArea;

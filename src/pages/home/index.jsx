@@ -11,6 +11,6 @@ const HomePage = () => {
       <ServicesSec sectionbgcolor="bg-blue-100"/>
     </main>
   )
-}
+};
 
 export default HomePage;

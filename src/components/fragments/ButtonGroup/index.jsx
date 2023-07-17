@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const ButtonGroup = (props) => {
   const { children } = props;
@@ -8,6 +8,6 @@ const ButtonGroup = (props) => {
       {children}
     </div>
   )
-}
+};
 
 export default ButtonGroup;

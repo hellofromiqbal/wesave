@@ -9,6 +9,6 @@ const useScrollToTop = () => {
   }, [pathname]);
 
   return null;
-}
+};
 
 export default useScrollToTop;

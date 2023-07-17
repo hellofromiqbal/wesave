@@ -8,6 +8,6 @@ const ServicesPage = (props) => {
       <ServiceSec cardcolor="bg-blue-100"/>
     </main>
   )
-}
+};
 
 export default ServicesPage;

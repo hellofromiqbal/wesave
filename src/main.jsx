@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import Home from './pages/home';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import ErrorPage from './pages/404';
+import './index.css';
 import MainLayout from './components/layouts/MainLayout';
-import ServicesPage from './pages/services';
+import ErrorPage from './pages/404';
+import HomePage from './pages/home';
 import AboutPage from './pages/about';
+import ServicesPage from './pages/services';
 import ContactPage from './pages/contact';
 
 const routes = createBrowserRouter([
@@ -17,7 +17,7 @@ const routes = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home/>
+        element: <HomePage/>
       },
       {
         path: "/about",
