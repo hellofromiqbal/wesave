@@ -1,11 +1,11 @@
 import React from 'react';
-import ContactForm from '../../components/fragments/ContactForm';
+import ContactSec from '../../sections/ContactSec';
 
 const ContactPage = (props) => {
   const { paddingtop } = props;
   return (
     <main className={`${paddingtop}`}>
-      <ContactForm/>
+      <ContactSec/>
     </main>
   )
 };
