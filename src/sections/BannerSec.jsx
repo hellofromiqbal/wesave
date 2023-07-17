@@ -18,7 +18,7 @@ const BannerSec = () => {
       bgimg={`bg-[url("/public/images/banner.webp")]`}
     >
       <div className='flex flex-col justify-center items-center gap-4'>
-        <h1 className='font-bold text-3xl lg:text-4xl my-2 text-center text'>WeCare. WeProtect. WeSafe.</h1>
+        <h1 className='text-white font-bold text-3xl lg:text-4xl my-2 text-center'>WeCare. WeProtect. WeSafe.</h1>
         <Button
           bgcolor="bg-blue-700"
           textcolor="text-white"
