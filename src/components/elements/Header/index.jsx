@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Navbar from '../Navbar';
+import Navbar from './Navbar';
 
 import { GoShieldLock as IconShield } from 'react-icons/go';
 import {
