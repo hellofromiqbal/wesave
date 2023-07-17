@@ -31,26 +31,9 @@ const StepSec = (props) => {
   ];
   return (
     <SectionLayout sectionid="steps" bgcolor={sectionbgcolor} padding="pt-6">
-      <div
-        className='
-        w-full md:w-1/2
-        mx-auto
-        text-center
-        '
-      >
-        <h3
-          className='
-          font-semibold
-          text-sm md:text-base lg:text-xl
-          '
-        >Protect your assets now</h3>
-        <h2
-          className='
-          font-bold
-          text-2xl md:text-3xl lg:text-4xl
-          my-2
-          '
-        >
+      <div className='w-full md:w-1/2 mx-auto text-center'>
+        <h3 className='font-semibold text-sm md:text-base lg:text-xl'>Protect your assets now</h3>
+        <h2 className='font-bold text-2xl md:text-3xl lg:text-4xl my-2'>
           <span className='text-blue-700'>Reliable</span> Service Partner
         </h2>
       </div>
