@@ -5,6 +5,7 @@ import { GoDiscussionClosed as IconDiscuss } from 'react-icons/go';
 import { BsEmojiSmile as IconRelax } from 'react-icons/bs';
 import Card from '../components/elements/Card';
 import CardGroup from '../components/fragments/CardGroup';
+import SectionLayout from '../components/layouts/SectionLayout';
 
 const StepSec = (props) => {
   const { sectionbgcolor = "bg-white", cardcolor="bg-white" } = props;
@@ -29,57 +30,44 @@ const StepSec = (props) => {
     },
   ];
   return (
-    <section
-      id='steps'
-      className={`
-      flex
-      flex-col
-      pt-6
-      bg-blue-100
-      ${sectionbgcolor}
-      `}
-    >
+    <SectionLayout sectionid="steps" bgcolor="bg-blue-100" padding="pt-6">
       <div
-        className='px-6 md:px-10'
+        className='
+        w-full md:w-1/2
+        mx-auto
+        text-center
+        '
       >
-        <div
+        <h3
           className='
-          w-full md:w-1/2
-          mx-auto
-          text-center
+          font-semibold
+          text-sm md:text-base lg:text-xl
+          '
+        >Protect your assets now</h3>
+        <h2
+          className='
+          font-bold
+          text-2xl md:text-3xl lg:text-4xl
+          my-2
           '
         >
-          <h3
-            className='
-            font-semibold
-            text-sm md:text-base lg:text-xl
-            '
-          >Protect your assets now</h3>
-          <h2
-            className='
-            font-bold
-            text-2xl md:text-3xl lg:text-4xl
-            my-2
-            '
-          >
-            <span className='text-blue-700'>Reliable</span> Service Partner
-          </h2>
-        </div>
-        <CardGroup>
-          {steps.map((step) => (
-            <Card
-              key={step.id}
-              bgcolor={cardcolor}
-              iconcolor="blue"
-              iconbordercolor="blue"
-              icon={step.icon}
-              title={step.title}
-              desc={step.desc}
-            />
-          ))}
-        </CardGroup>
+          <span className='text-blue-700'>Reliable</span> Service Partner
+        </h2>
       </div>
-    </section>
+      <CardGroup>
+        {steps.map((step) => (
+          <Card
+            key={step.id}
+            bgcolor={cardcolor}
+            iconcolor="blue"
+            iconbordercolor="blue"
+            icon={step.icon}
+            title={step.title}
+            desc={step.desc}
+          />
+        ))}
+      </CardGroup>
+    </SectionLayout>
   )
 }
 

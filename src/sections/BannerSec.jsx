@@ -13,6 +13,7 @@ const BannerSec = () => {
     <section
       className='
       flex
+      flex-col
       bg-[url("/public/images/banner.webp")]
       bg-cover
       bg-center

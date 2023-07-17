@@ -10,6 +10,7 @@ import { BiCctv as IconCCTV } from 'react-icons/bi';
 import { SlLock as IconLock } from 'react-icons/sl';
 import Card from '../components/elements/Card';
 import CardGroup from '../components/fragments/CardGroup';
+import SectionLayout from '../components/layouts/SectionLayout';
 
 const ServicesSec = (props) => {
   const { sectionbgcolor = "bg-white", cardcolor="bg-white" } = props;
@@ -58,57 +59,43 @@ const ServicesSec = (props) => {
     },
   ];
   return (
-    <section
-      id='services'
-      className={`
-      flex
-      flex-col
-      pt-6
-      ${sectionbgcolor}
-      `}
-    >
+    <SectionLayout sectionid="services" padding="pt-6">
       <div
         className='
-        px-6 md:px-10
+        w-full md:w-1/2
+        mx-auto
+        text-center
         '
       >
-        <div
+        <h3
           className='
-          w-full md:w-1/2
-          mx-auto
-          text-center
+          font-semibold
+          text-sm md:text-base lg:text-xl
+          '
+        >Protection models</h3>
+        <h2
+          className='
+          font-bold
+          text-2xl md:text-3xl lg:text-4xl
+          my-2
           '
         >
-          <h3
-            className='
-            font-semibold
-            text-sm md:text-base lg:text-xl
-            '
-          >Protection models</h3>
-          <h2
-            className='
-            font-bold
-            text-2xl md:text-3xl lg:text-4xl
-            my-2
-            '
-          >
-            Various <span className='text-blue-700'>Solid</span> Protection
-          </h2>
-        </div>
-        <CardGroup>
-          {services.map((service) => (
-            <Card
-              key={service.id}
-              bgcolor={cardcolor}
-              icon={service.icon}
-              title={service.title}
-              desc={service.desc}
-              link={service.link}
-            />
-          ))}
-        </CardGroup>
+          Various <span className='text-blue-700'>Solid</span> Protection
+        </h2>
       </div>
-    </section>
+      <CardGroup>
+        {services.map((service) => (
+          <Card
+            key={service.id}
+            bgcolor={cardcolor}
+            icon={service.icon}
+            title={service.title}
+            desc={service.desc}
+            link={service.link}
+          />
+        ))}
+      </CardGroup>
+    </SectionLayout>
   )
 };
 
