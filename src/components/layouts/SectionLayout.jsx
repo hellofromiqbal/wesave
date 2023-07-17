@@ -4,16 +4,28 @@ const SectionLayout = (props) => {
   const {
     sectionid,
     bgcolor = "bg-white",
-    padding,
+    bgimg,
+    padding = "p-0",
     children
   } = props;
   
   return (
     <section
       id={sectionid}
-      className={`flex flex-col ${bgcolor} ${padding}`}
+      className={`
+        flex
+        flex-col
+        ${bgcolor}
+        ${padding}
+        ${bgimg ? `${bgimg} bg-cover bg-center` : ``}
+      `}
     >
-      <div className='px-6 mdLpx-10'>
+      <div
+        className={`
+        px-6 md:px-10
+        ${bgimg ? `w-full bg-gradient-to-tl from-transparent to-black p-10 md:p-20` : ``}
+        `}
+      >
         {children}
       </div>
     </section>

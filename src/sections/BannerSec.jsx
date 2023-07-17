@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '../components/elements/Button';
 import { useNavigate } from 'react-router-dom';
+import SectionLayout from '../components/layouts/SectionLayout';
 
 const BannerSec = () => {
   const navigate = useNavigate();
@@ -10,51 +11,38 @@ const BannerSec = () => {
   };
 
   return (
-    <section
-      className='
-      flex
-      flex-col
-      bg-[url("/public/images/banner.webp")]
-      bg-cover
-      bg-center
-      '
+    <SectionLayout
+      sectionid="banner"
+      bgimg={`bg-[url("/public/images/banner.webp")]`}
     >
       <div
         className='
-        bg-gradient-to-tl from-transparent to-black
-        p-10 md:p-20
-        px-6 md:px-10
-        w-full
+        flex
+        flex-col
+        justify-center
+        items-center
+        gap-4
+        
         '
       >
-        <div
+        <h1
           className='
-          flex
-          flex-col
-          justify-center
-          items-center
-          gap-4
+          font-bold
+          text-3xl lg:text-4xl
+          my-2
+          text-center
+          text-white
           '
-        >
-          <h1
-            className='
-            font-bold
-            text-3xl lg:text-4xl
-            my-2
-            text-center
-            text-white
-            '
-          >WeCare. WeProtect. WeSafe.</h1>
-          <Button
-            bgcolor="bg-blue-700"
-            textcolor="text-white"
-            bordercolor="border-transparent"
-            children="Start Protection"
-            onClick={() => onClick("/contact")}
-          />
-        </div>
+        >WeCare. WeProtect. WeSafe.</h1>
+        <Button
+          bgcolor="bg-blue-700"
+          textcolor="text-white"
+          bordercolor="border-transparent"
+          children="Start Protection"
+          onClick={() => onClick("/contact")}
+        />
       </div>
-    </section>
+    </SectionLayout>
   )
 };
 
