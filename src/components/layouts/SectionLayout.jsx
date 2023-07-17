@@ -5,7 +5,7 @@ const SectionLayout = (props) => {
     sectionid,
     bgcolor = "bg-white",
     bgimg,
-    padding = "p-0",
+    padding,
     children
   } = props;
   
