@@ -1,10 +1,13 @@
 import React from 'react';
+import SectionLayout from '../components/layouts/SectionLayout';
 
-const ErrorPage = () => {
+const ErrorPage = (props) => {
+  const { paddingtop } = props;
+  
   return (
-    <div>
-      <h1>Something went wrong...</h1>
-    </div>
+    <main className={`${paddingtop}`}>
+      <h1>Oops! Something went wrong...</h1>
+    </main>
   )
 };
 
