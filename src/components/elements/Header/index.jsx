@@ -17,19 +17,7 @@ const Header = () => {
 
   return (
     <>
-      <header
-        className='bg-blue-700
-        fixed top-0 left-0 right-0
-        flex
-        justify-between
-        items-center
-        h-14
-        px-6 md:px-10
-        py-4
-        z-10
-        shadow-sm
-        '
-      >
+      <header className='bg-blue-700 fixed top-0 left-0 right-0 flex justify-between items-center h-14 px-6 md:px-10 py-4 z-10 shadow-sm'>
         <div className='flex flex-row items-center gap-1'>
           <div className='text-3xl text-white drop-shadow-xl'>
             <IconShield/>
@@ -54,14 +42,7 @@ const Header = () => {
         </div>
       </header>
       {navIconClicked &&
-        <div
-          className='bg-white
-          fixed left-0 right-0
-          mt-14
-          z-10
-          shadow-sm
-          '
-        >
+        <div className='bg-white fixed left-0 right-0 mt-14 z-10 shadow-sm'>
           <Navbar onClick={onClick}/>
         </div>
       }
