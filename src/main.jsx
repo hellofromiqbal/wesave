@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
 import './index.css';
 import MainLayout from './components/layouts/MainLayout';
 import ErrorPage from './pages/404';
@@ -8,6 +7,9 @@ import HomePage from './pages/home';
 import AboutPage from './pages/about';
 import ServicesPage from './pages/services';
 import ContactPage from './pages/contact';
+
+import ReactDOM from 'react-dom/client';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const routes = createBrowserRouter([
   {

@@ -2,6 +2,7 @@ import React from 'react';
 
 const Input = (props) => {
   const { inputType, inputId, inputName, inputPlaceholder } = props;
+  
   return (
     <input
       type={inputType}

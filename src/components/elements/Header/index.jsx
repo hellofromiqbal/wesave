@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
+
 import Navbar from './Navbar';
+import Button from '../Button';
 
 import { GoShieldLock as IconShield } from 'react-icons/go';
 import {
   AiOutlineMenu as IconMenu,
   AiOutlineClose as IconClose
 } from 'react-icons/ai';
-import Button from '../Button';
 
 const Header = () => {
   const [navIconClicked, setNavIconClicked] = useState(false);

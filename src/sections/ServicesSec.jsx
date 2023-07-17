@@ -1,5 +1,9 @@
 import React from 'react';
 
+import SectionLayout from '../components/layouts/SectionLayout';
+import CardGroup from '../components/fragments/CardGroup';
+import Card from '../components/elements/Card';
+
 import {
   BsShield as IconShield,
   BsKey as IconKey,
@@ -8,12 +12,11 @@ import {
 } from 'react-icons/bs';
 import { BiCctv as IconCCTV } from 'react-icons/bi';
 import { SlLock as IconLock } from 'react-icons/sl';
-import Card from '../components/elements/Card';
-import CardGroup from '../components/fragments/CardGroup';
-import SectionLayout from '../components/layouts/SectionLayout';
+
 
 const ServicesSec = (props) => {
   const { sectionbgcolor = "bg-white", cardcolor="bg-white" } = props;
+
   const services = [
     {
       id: 1,
@@ -56,8 +59,9 @@ const ServicesSec = (props) => {
       title: "Security Strategy",
       desc: "Build a proactive, custom security strategy that suits your business needs, creating a secure and prosperous business environment.",
       link: "/services/security-strategy"
-    },
+    }
   ];
+
   return (
     <SectionLayout sectionid="services" bgcolor={sectionbgcolor} padding="pt-6">
       <div className='w-full md:w-1/2 mx-auto text-center'>

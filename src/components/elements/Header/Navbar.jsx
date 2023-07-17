@@ -1,8 +1,10 @@
 import React from 'react';
+
 import { Link } from 'react-router-dom';
 
 const Navbar = (props) => {
   const { onClick } = props;
+  
   return (
     <nav>
       <ul className="flex flex-col md:flex-row gap-0 md:gap-4 text-black md:text-white md:font-semibold">

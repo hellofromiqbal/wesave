@@ -2,6 +2,7 @@ import React from 'react';
 
 const TextArea = (props) => {
   const { textAreaName, textAreaId, textAreaPlaceholder } = props;
+  
   return (
     <textarea
       name={textAreaName}

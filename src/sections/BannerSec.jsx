@@ -1,7 +1,9 @@
 import React from 'react';
+
 import Button from '../components/elements/Button';
-import { useNavigate } from 'react-router-dom';
 import SectionLayout from '../components/layouts/SectionLayout';
+
+import { useNavigate } from 'react-router-dom';
 
 const BannerSec = () => {
   const navigate = useNavigate();

@@ -11,6 +11,7 @@ const Button = (props) => {
     bordercolor = "border-blue-700",
     children,
   } = props;
+  
   return (
     <button
       className={`first-letter:font-semibold first-letter:sm:text-sm md:text-base lg:text-lg first-letter:w-max first-letter:border-2 first-letter:${bgcolor !== "bg-white" && `hover:bg-blue-500 transition-all`} first-letter:${bgcolor} ${textcolor} ${textsize} ${paddingx} ${paddingy} ${bordercolor}`}

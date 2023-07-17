@@ -1,8 +1,10 @@
 import React from 'react';
+
 import SectionLayout from '../components/layouts/SectionLayout';
 
 const ProfileSec = (props) => {
   const { sectionbgcolor = "bg-white" } = props;
+  
   return (
     <SectionLayout sectionid="about" bgcolor={sectionbgcolor} padding="py-6">
       <div className='flex flex-col md:flex-row gap-6 lg:w-4/6 m-auto'>

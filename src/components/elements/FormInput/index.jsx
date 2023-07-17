@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Label from './Label';
 import Input from './Input';
 
@@ -11,6 +12,7 @@ const FormInput = (props) => {
     inputId,
     inputPlaceholder = "..."
   } = props;
+  
   return (
     <div
       className='flex flex-col'>

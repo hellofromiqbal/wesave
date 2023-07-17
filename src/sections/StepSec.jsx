@@ -1,13 +1,16 @@
 import React from 'react';
+
+import SectionLayout from '../components/layouts/SectionLayout';
+import CardGroup from '../components/fragments/CardGroup';
+import Card from '../components/elements/Card';
+
 import { HiOutlineLink as IconConnect } from 'react-icons/hi';
 import { GoDiscussionClosed as IconDiscuss } from 'react-icons/go';
 import { BsEmojiSmile as IconRelax } from 'react-icons/bs';
-import Card from '../components/elements/Card';
-import CardGroup from '../components/fragments/CardGroup';
-import SectionLayout from '../components/layouts/SectionLayout';
 
 const StepSec = (props) => {
   const { sectionbgcolor = "bg-white", cardcolor="bg-white" } = props;
+
   const steps = [
     {
       id: 1,
@@ -26,8 +29,9 @@ const StepSec = (props) => {
       icon: <IconRelax/>,
       title: "Relax",
       desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo delectus quis assumenda possimus ratione laboriosam nam rem labore distinctio voluptate."
-    },
+    }
   ];
+
   return (
     <SectionLayout sectionid="steps" bgcolor={sectionbgcolor} padding="pt-6">
       <div className='w-full md:w-1/2 mx-auto text-center'>

@@ -1,4 +1,5 @@
 import React from 'react';
+
 import SectionLayout from '../components/layouts/SectionLayout';
 import ContactForm from '../components/fragments/ContactForm';
 
