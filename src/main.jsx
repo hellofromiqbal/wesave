@@ -2,7 +2,7 @@ import React from 'react';
 
 import './index.css';
 import MainLayout from './components/layouts/MainLayout';
-import ErrorPage from './pages/404';
+import ErrorPage from './pages/error';
 import HomePage from './pages/home';
 import AboutPage from './pages/about';
 import ServicesPage from './pages/services';
@@ -15,7 +15,6 @@ const routes = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout/>,
-    errorElement: <ErrorPage/>,
     children: [
       {
         path: "/",
@@ -33,6 +32,10 @@ const routes = createBrowserRouter([
         path: "/contact",
         element: <ContactPage paddingtop="pt-14"/>
       },
+      {
+        path:"/*",
+        element: <ErrorPage/>
+      }
     ]
   }
 ]);
