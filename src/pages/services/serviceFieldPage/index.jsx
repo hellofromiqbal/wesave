@@ -1,7 +1,8 @@
 import React from 'react';
-import SectionLayout from '../../../components/layouts/SectionLayout';
 import { useParams } from 'react-router-dom';
 import useServiceField from '../../../customHooks/useServiceField';
+import ServiceFieldDetail from '../../../sections/ServiceFieldDetail';
+import StepSec from '../../../sections/StepSec';
 
 const ServiceFieldPage = (props) => {
   const { paddingtop } = props;
@@ -12,12 +13,12 @@ const ServiceFieldPage = (props) => {
 
   return (
     <main className={`${paddingtop}`}>
-      <SectionLayout padding="py-6">
-        <div className='h-screen flex flex-col justify-center items-center'>
-          <h1>{content.title}</h1>
-          <p>{content.desc}</p>
-        </div>
-      </SectionLayout>
+      <ServiceFieldDetail
+        icon={content.icon}
+        title={content.title}
+        desc={content.desc}
+      />
+      <StepSec cardcolor="bg-blue-100"/>
     </main>
   )
 };
