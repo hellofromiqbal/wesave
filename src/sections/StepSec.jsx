@@ -16,19 +16,19 @@ const StepSec = (props) => {
       id: 1,
       icon: <IconConnect/>,
       title: "Connect",
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo delectus quis assumenda possimus ratione laboriosam nam rem labore distinctio voluptate."
+      desc: "Connecting with each other is the first step to starting to care about you. This is very important step so we know what you really need."
     },
     {
       id: 2,
       icon: <IconDiscuss/>,
       title: "Discuss",
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo delectus quis assumenda possimus ratione laboriosam nam rem labore distinctio voluptate."
+      desc: "Here, we discuss what kind of solutive option that you really need. We also offer an alternative options to make you feel protected."
     },
     {
       id: 3,
       icon: <IconRelax/>,
       title: "Relax",
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo delectus quis assumenda possimus ratione laboriosam nam rem labore distinctio voluptate."
+      desc: "After discussion, all you need to do just relax and put a smile on your face. Consider everything is done by our protection."
     }
   ];
 
